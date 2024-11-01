@@ -1,0 +1,28 @@
+@font-face {
+    src: url('/fonts/Ubuntu-Bold.otf');
+}
+
+.panel {
+	-fx-background-color: #262930;
+}
+
+.label {
+	-fx-font-family: "Ubuntu";
+	-fx-font-size: 28px;
+	-fx-background-color: #15181C;
+	-fx-letter-spacing: 20px;
+}
+
+.button-restart {
+	-fx-font-size: 24px;
+	-fx-background-color: #0086AB;
+	-fx-text-fill: #fff;
+	-fx-border-width: 0px;
+	-fx-padding: 14 10 14 10;
+	-fx-border-radius: 3px;
+	-fx-font-family: "Ubuntu";
+}
+
+.button-restart:pressed {
+	-fx-background-color: #009FC6;
+}
